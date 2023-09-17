@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply box-border overflow-auto;
+}
+
+.container {
+  @apply mx-auto max-w-6xl px-4;
+}
+
+h1 {
+  @apply text-2xl my-4;
+}
+
+.button-primary {
+  @apply mx-2 cursor-pointer rounded-full px-4 py-2 bg-slate-600;
+}
+
+.image-wrapper {
+  @apply m-8;
+}
+
+.contoh {
+  @apply p-4 rounded-4xl bg-slate-300;
+}
+
+footer {
+  @apply py-2 bg-red-500;
+}
