@@ -4,19 +4,28 @@
 
 html,
 body {
-  @apply box-border overflow-auto;
+  @apply box-border overflow-auto text-text font-text text-lg;
 }
 
 .container {
-  @apply mx-auto max-w-6xl px-4;
+  @apply mx-auto max-w-6xl px-8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-header text-xl;
 }
 
 h1 {
-  @apply text-2xl my-4;
+  @apply text-3xl my-4 text-accent;
 }
 
 .button-primary {
-  @apply mx-2 cursor-pointer rounded-full px-4 py-2 bg-slate-600;
+  @apply cursor-pointer rounded-full px-4 py-2 bg-primary;
 }
 
 .image-wrapper {
@@ -24,9 +33,9 @@ h1 {
 }
 
 .contoh {
-  @apply p-4 rounded-4xl bg-slate-300;
+  @apply p-4 rounded-2xl bg-secondary;
 }
 
 footer {
-  @apply py-2 bg-red-500;
+  @apply py-2 bg-accent text-background;
 }

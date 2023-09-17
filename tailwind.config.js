@@ -4,8 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "light-main": "#fbf8f0",
-        "light-second": "#ffc6a5",
+        text: "#110c03",
+        background: "#fcf9f2",
+        primary: "#eab217",
+        secondary: "#f3dcba",
+        accent: "#773f14",
+      },
+      fontFamily: {
+        header: ['"Lora"', '"serif"'],
+        text: ['"Inclusive Sans"', '"sans-serif"'],
       },
     },
   },
