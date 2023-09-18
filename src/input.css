@@ -11,6 +11,14 @@ body {
   @apply mx-auto max-w-6xl px-8;
 }
 
+header {
+  @apply bg-secondary rounded-b-3xl;
+}
+
+.this-page {
+  @apply text-accent font-semibold;
+}
+
 h1,
 h2,
 h3,
@@ -25,11 +33,15 @@ h1 {
 }
 
 .button-primary {
-  @apply cursor-pointer rounded-full px-4 py-2 bg-primary;
+  @apply cursor-pointer rounded-full px-4 py-2 bg-primary hover:-translate-y-1 transition-all;
 }
 
 .image-wrapper {
   @apply m-8;
+}
+
+.card {
+  @apply bg-secondary hover:-translate-y-1 focus:bg-primary transition-all;
 }
 
 .contoh {
@@ -37,5 +49,5 @@ h1 {
 }
 
 footer {
-  @apply py-2 bg-accent text-background;
+  @apply py-2 rounded-t-3xl bg-accent text-background;
 }
