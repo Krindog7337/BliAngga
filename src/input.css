@@ -41,9 +41,12 @@ h1 {
 }
 
 .card {
-  @apply bg-secondary hover:-translate-y-1 focus:bg-primary transition-all;
+  @apply bg-secondary;
 }
 
+.card-button {
+  @apply hover:-translate-y-1 cursor-pointer transition-all;
+}
 .contoh {
   @apply p-4 rounded-2xl bg-secondary;
 }
