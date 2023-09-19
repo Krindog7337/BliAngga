@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lora&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="output.css" />
-    <title>Basa Kasar</title>
+    <title>Materi</title>
   </head>
-  <body class="bg-light-main">
+  <body class="bg-background">
     <header>
       <div class="container flex justify-between py-2">
-        <a class="icon" href="/index.html">
-          <img src="/assets/logo.svg" alt="Logo Ceria" />
+        <a class="icon font-header text-2xl text-accent" href="/index.html">
+          BliAngga
         </a>
         <!-- mobile nav button -->
         <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
@@ -99,68 +105,98 @@
       </div>
     </header>
     <main>
-      <section class="container">
-        <div class="span text-4xl py-2 my-8">Basa Kasar</div>
-        <p class="my-8">
-          Basa Kasar Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Quidem voluptates libero adipisci, eveniet, voluptatum atque maxime,
-          tempora itaque earum doloribus repellendus dicta fuga voluptatem
-          similique laudantium ut iusto delectus.
+      <section class="container md:max-w-3xl">
+        <div class="span text-4xl py-2 my-8 font-header">Basa Kasar</div>
+        <p class="my-4">
+          Basa kasar, adalah bahasa yang rasanya kasar, biasanya digunakan
+          ketika bertengkar maupun marah kepada seseorang.
         </p>
+        <p>Basa kasar dibagi menjadi 2:</p>
       </section>
-      <section class="container">
+      <section class="container mb-8 md:max-w-3xl">
         <div class="text-wrapper">
           <h1 class="">Basa Kasar Pisan</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
-            quaerat doloremque sit, at quod laudantium.
+          <p class="my-4">
+            Basa kasar pisan adalah bahasa bali yang bahasanya kasar sekali,
+            digunakan ketika bertengkar maupun marah. Basa kasar pisan biasanya
+            juga digunakan kepada orang yang sudah akrab.
           </p>
           <p>Contoh :</p>
           <p class="contoh">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
-            impedit velit molestiae nobis possimus, numquam tenetur. Illo,
-            adipisci! Sed, quis?
+            Goban cainé, dadi tumbén cai ngenah, kija dogén awake nongos?
           </p>
-          <p>Arti :</p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-            ullam perferendis nam cupiditate aspernatur eum, deserunt distinctio
-            modi.
-          </p>
-        </div>
-        <div class="image-wrapper">
-          <img src="/assets/image.jpg" alt="" />
         </div>
       </section>
-      <section class="container">
+      <section class="container mb-8 md:max-w-3xl">
         <div class="text-wrapper">
-          <h1 class="">Basa Kasar Pisan</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem
-            quaerat doloremque sit, at quod laudantium.
+          <h1 class="">Basa Kasar Jabag</h1>
+          <p class="my-4">
+            Basa kasar jabag atau basa jabag, adalah bahasa yang penggunaan
+            bahasanya tidak sesuai dengan aturan tata berbahasa.
           </p>
           <p>Contoh :</p>
-          <p class="contoh">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
-            impedit velit molestiae nobis possimus, numquam tenetur. Illo,
-            adipisci! Sed, quis?
-          </p>
-          <p>Arti :</p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
-            ullam perferendis nam cupiditate aspernatur eum, deserunt distinctio
-            modi.
-          </p>
-        </div>
-        <div class="image-wrapper">
-          <img src="/assets/image.jpg" alt="" />
+          <p class="contoh">Hé, Cokorda apa to kalih ditu?</p>
         </div>
       </section>
     </main>
     <footer>
-      <section class="container">
-        <p>Copyright 2023 Bliangga</p>
-      </section>
+      <div class="container flex flex-col gap-2 py-8 md:flex-row">
+        <div class="wrapper flex-1">
+          <a
+            class="icon font-header text-4xl text-background"
+            href="/index.html"
+          >
+            BliAngga
+          </a>
+          <p class="my-4">
+            Bliangga merupakan platform edukasi anggah-ungguh bahasa bali
+            berbasis website yang simpel, mudah, dan menyenangkan.
+          </p>
+        </div>
+        <div class="wrapper flex-1">
+          <ul class="flex flex-col">
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/materi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="container py-4 text-center">
+        &copy; 2023 BliAngga. All rights reserved.
+      </p>
     </footer>
+    <script src="js/navigation.js"></script>
   </body>
 </html>

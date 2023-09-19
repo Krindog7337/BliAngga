@@ -3,14 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lora&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="output.css" />
-    <title>Basa Alus</title>
+    <title>Materi</title>
   </head>
-  <body class="bg-light-main">
+  <body class="bg-background">
     <header>
       <div class="container flex justify-between py-2">
-        <a class="icon" href="/index.html">
-          <img src="/assets/logo.svg" alt="Logo Ceria" />
+        <a class="icon font-header text-2xl text-accent" href="/index.html">
+          BliAngga
         </a>
         <!-- mobile nav button -->
         <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
@@ -99,31 +105,78 @@
       </div>
     </header>
     <main>
-      <section class="container">
-        <div class="span text-4xl py-2 my-8">Basa Andap</div>
-        <p class="my-8">
-          Basa Andap Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Natus voluptas, nostrum voluptate sit accusamus, totam ipsum
-          repellendus similique, voluptatem dicta quia nesciunt ex. Consectetur
-          commodi omnis velit in expedita, architecto accusantium debitis.
-          Obcaecati, aspernatur?
+      <section class="container md:max-w-3xl mb-8">
+        <div class="span text-4xl py-2 my-8 font-header">Basa Madia</div>
+        <p class="my-4">
+          Basa Andap adalah bahasa yang digunakan kepada orang yang memiliki
+          wangsa, kedudukan, maupun umur yang sama. Bahasa ini lumrah dipakai
+          oleh wangsa jaba.
         </p>
         <p>Contoh :</p>
         <p class="contoh">
-          Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur
-          adipisicing elit.
-        </p>
-        <p>Arti :</p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          Exercitationem assumenda error tempora accusantium quisquam?
+          Luh, gaénang malu bapa kopi!. Sirah bapané uyun. Pabedikin gulanné
+          Luh!.
         </p>
       </section>
     </main>
     <footer>
-      <section class="container">
-        <p>Copyright 2023 Bliangga</p>
-      </section>
+      <div class="container flex flex-col gap-2 py-8 md:flex-row">
+        <div class="wrapper flex-1">
+          <a
+            class="icon font-header text-4xl text-background"
+            href="/index.html"
+          >
+            BliAngga
+          </a>
+          <p class="my-4">
+            Bliangga merupakan platform edukasi anggah-ungguh bahasa bali
+            berbasis website yang simpel, mudah, dan menyenangkan.
+          </p>
+        </div>
+        <div class="wrapper flex-1">
+          <ul class="flex flex-col">
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/materi.html"
+                >Informasi</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="container py-4 text-center">
+        &copy; 2023 BliAngga. All rights reserved.
+      </p>
     </footer>
+    <script src="js/navigation.js"></script>
   </body>
 </html>
