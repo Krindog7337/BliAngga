@@ -6,7 +6,7 @@
    version="1.1"
    id="svg2535"
    sodipodi:docname="menu_FILL0_wght500_GRAD0_opsz40.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -25,15 +25,15 @@
      showgrid="false"
      inkscape:zoom="11.25"
      inkscape:cx="20.044444"
-     inkscape:cy="20"
+     inkscape:cy="20.044444"
      inkscape:window-width="1366"
-     inkscape:window-height="731"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2535" />
   <path
      d="m 153.333,823.5725 q -16,0 -26.938,-10.972 -10.939,-10.972 -10.939,-27.022 0,-16.049 10.939,-26.904 10.938,-10.855 26.938,-10.855 h 653.334 q 16,0 26.938,10.971 10.939,10.972 10.939,27.022 0,16.05 -10.939,26.905 -10.938,10.855 -26.938,10.855 z m 0,-209.616 q -16,0 -26.938,-10.972 -10.939,-10.972 -10.939,-27.022 0,-16.05 10.939,-26.905 10.938,-10.855 26.938,-10.855 h 653.334 q 16,0 26.938,10.972 10.939,10.972 10.939,27.022 0,16.05 -10.939,26.905 -10.938,10.855 -26.938,10.855 z m 0,-209.617 q -16,0 -26.938,-10.972 -10.939,-10.972 -10.939,-27.021 0,-16.05 10.939,-26.985 10.938,-10.934 26.938,-10.934 h 653.334 q 16,0 26.938,11.051 10.939,11.052 10.939,27.102 0,16.049 -10.939,26.904 -10.938,10.855 -26.938,10.855 z"
      id="path2533"
-     style="fill:#e6324b;fill-opacity:1" />
+     style="fill:#773f14;fill-opacity:1" />
 </svg>
