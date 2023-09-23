@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Lora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <title>Idera - Kuis - BliAngga</title>
+  </head>
+  <body class="bg-background">
+    <header>
+      <div class="container flex justify-between py-2">
+        <a class="icon font-header text-2xl text-accent" href="/index.html">
+          <img class="h-10" src="assets/bliangga.svg" alt="Logo BliAngga" />
+        </a>
+        <!-- mobile nav button -->
+        <button class="mobile-menu-button block rounded-lg p-1 md:hidden">
+          <img src="/assets/menu_FILL0_wght500_GRAD0_opsz40.svg" alt="" />
+        </button>
+        <!-- desktop navigation -->
+        <nav class="hidden md:flex">
+          <ul class="flex-wrap items-center md:flex">
+            <li>
+              <a
+                class="mx-2 cursor-pointer rounded-lg px-4 py-2 transition hover:text-primary"
+                href="/index.html"
+                >Beranda</a
+              >
+            </li>
+            <li>
+              <a
+                class="mx-2 cursor-pointer rounded-lg px-4 py-2 transition hover:text-primary"
+                href="/materi.html"
+                >Materi</a
+              >
+            </li>
+            <li>
+              <a
+                class="mx-2 cursor-pointer rounded-lg px-4 py-2 transition hover:text-primary"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li>
+              <a
+                class="mx-2 cursor-pointer rounded-lg px-4 py-2 transition hover:text-primary"
+                href="/tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li>
+              <a
+                class="this-page mx-2 cursor-pointer rounded-lg px-4 py-2 transition hover:text-primary"
+                href="/kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- mobile navigation -->
+      <div class="mobile-navigation container hidden">
+        <ul class="pb-2">
+          <li class="my-3">
+            <a
+              class="cursor-pointer rounded-lg py-2 text-lg transition hover:text-ceria-accent"
+              href="/index.html"
+              >Beranda</a
+            >
+          </li>
+          <li class="my-3">
+            <a
+              class="cursor-pointer rounded-lg py-2 text-lg transition hover:text-ceria-accent"
+              href="/materi.html"
+              >Materi</a
+            >
+          </li>
+          <li class="my-3">
+            <a
+              class="cursor-pointer rounded-lg py-2 text-lg transition hover:text-ceria-accent"
+              href="/video.html"
+              >Video</a
+            >
+          </li>
+          <li class="my-3">
+            <a
+              class="cursor-pointer rounded-lg py-2 text-lg transition hover:text-ceria-accent"
+              href="/tentang.html"
+              >Tentang</a
+            >
+          </li>
+          <li class="my-3">
+            <a
+              class="cursor-pointer this-page rounded-lg py-2 text-lg transition hover:text-ceria-accent"
+              href="/kuis.html"
+              >Kuis</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container my-8">
+        <section class="mx-auto flex flex-col md:max-w-xl">
+          <form id="form-kuis" class="flex flex-col gap-2">
+            <div class="wrapper-quiz-card rounded-3xl bg-secondary p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 1</h1>
+                <p>
+                  Ring sor wénten makudang-kudang lengkara, Encén sané ngranjing
+                  lengkara alus sor?
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="a" />
+                  <span class="ml-2">Dumogi Hyang Widhi nyuécanin</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="b" />
+                  <span class="ml-2">Lakar kija né Dayu Putu?</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q1" value="c" />
+                  <span class="ml-2">Sinarengan titiang matur</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-3xl bg-secondary p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 2</h1>
+                <p class="font-header">
+                  Ring upacara bendéra sajeroning sambrama wacanan dané, Bapak
+                  Kepala Sekolah... piteket-piteket ring siswané.
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="a" />
+                  <span class="ml-2">ngicén</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="b" />
+                  <span class="ml-2">maang</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q2" value="c" />
+                  <span class="ml-2">ngaturang</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-3xl bg-secondary p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 3</h1>
+                <p>
+                  Rikala paplajahan Basa Bali, silih tunggil siswané nénten
+                  ngresep penjelasan guruné indik basa alus sor. Raris ipun
+                  matakén. Manut anggah ungguhing Basa Bali, encén pitakén
+                  siswané sané patut ring sor?
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="a" />
+                  <span class="ml-2"
+                    >"Aksamayang bu, jelasin buin basa alus sorné bu!"</span
+                  >
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="b" />
+                  <span class="ml-2"
+                    >"Ampura bu, titiang durung ngresep napi punika basa alus
+                    sor bu?"</span
+                  >
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q3" value="c" />
+                  <span class="ml-2">"Apa to alus sor bu?"</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-3xl bg-secondary p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 4</h1>
+                <p class="font-header">
+                  Inggih, sané mangkin titiang jaga nyinahang déwék. Mungguhing
+                  wastan titiangé Ni Putu Sasanti. Titiang... ring Denpasar, duk
+                  28 Maret 2009. <br /><br />
+                </p>
+                <p>
+                  Kruna sané anut anggén nyangkepin lengkara di ajeng inggih
+                  punika...
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="a" />
+                  <span class="ml-2">lahir</span>
+                </label>
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="b" />
+                  <span class="ml-2">embas</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q4" value="c" />
+                  <span class="ml-2">lekad</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper-quiz-card rounded-3xl bg-secondary p-2">
+              <div class="wrapper-question px-2 py-1">
+                <h1>Soal 5</h1>
+                <p class="font-header">
+                  Inggih ida dané sané wangiang titiang. Wantah asapunika
+                  pidarta sané aturang titiang. Geng rena sinampura...titiang
+                  ring sakancan kakirangannyané. Om santih, santih, santih Om.
+                  <br /><br />
+                </p>
+                <p>
+                  Kruna sané anut anggé nyangkepin wacanané ring ajeng inggih
+                  punika...
+                </p>
+              </div>
+              <div class="wrapper-quiz-answer">
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="a" />
+                  <span class="ml-2">lungsur</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="b" />
+                  <span class="ml-2">aturin</span>
+                </label>
+
+                <label class="flex items-center">
+                  <input type="radio" class="form-radio" name="q5" value="c" />
+                  <span class="ml-2">wehin</span>
+                </label>
+              </div>
+            </div>
+            <div class="wrapper my-4 flex flex-row-reverse justify-between">
+              <button
+                class="cursor-pointer rounded-3xl bg-accent button-primary text-center text-background"
+                type="submit"
+              >
+                Lihat Hasil
+              </button>
+              <div
+                class="flex flex-col justify-center border-l-2 border-accent px-4"
+                id="scoreDisplay"
+              ></div>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container flex flex-col gap-2 py-8 md:flex-row">
+        <div class="wrapper flex-1">
+          <a
+            class="icon font-header text-4xl text-background"
+            href="/index.html"
+          >
+            BliAngga
+          </a>
+          <p class="my-4 mr-4">
+            BliAngga merupakan platform edukasi anggah-ungguh bahasa bali
+            berbasis website yang simpel, mudah, dan menyenangkan.
+          </p>
+        </div>
+        <div class="wrapper flex-1">
+          <ul class="flex flex-col">
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/"
+                >Beranda</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/materi.html"
+                >Materi</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="/video.html"
+                >Video</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="tentang.html"
+                >Tentang</a
+              >
+            </li>
+            <li class="my-2">
+              <a
+                class="cursor-pointer rounded-lg transition hover:text-primary md:p-2"
+                href="kuis.html"
+                >Kuis</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="container py-4 text-center">
+        &copy; 2023 BliAngga. All rights reserved.
+      </p>
+    </footer>
+    <script src="js/navigation.js"></script>
+    <script src="js/kuis-idera.js"></script>
+  </body>
+</html>
